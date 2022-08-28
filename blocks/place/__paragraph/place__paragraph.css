@@ -15,4 +15,8 @@
   .place__paragraph:first-of-type {
       margin-bottom: 25px;
     }
+
+  .place__paragraph {
+    font-size: 16px;
+  }  
   }  

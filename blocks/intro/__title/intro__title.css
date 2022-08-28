@@ -6,6 +6,16 @@
   line-height: 58px;
 }
 
+@media screen and (max-width: 580px) {
+  .intro__title {
+      max-width: 400px;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 45px;
+    }
+  }
+
 @media screen and (max-width: 320px) {
   .intro__title {
       font-style: normal;

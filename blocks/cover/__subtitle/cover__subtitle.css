@@ -1,12 +1,12 @@
 .cover__subtitle {
   grid-row: 2/2;
   max-width: 360px;
-  max-height: 66px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   align-self: flex-start;
+  margin: 0;
   z-index: 2;
 }
 

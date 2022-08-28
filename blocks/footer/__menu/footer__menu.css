@@ -5,7 +5,8 @@
   grid-auto-flow: column;
 }
 
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 720px) {
   .footer__menu {
       display: flex;
       flex-direction: column;

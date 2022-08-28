@@ -2,3 +2,10 @@
   grid-column: 2/2;
   grid-row: 2/4;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__main-text {
+      max-width: 456px;
+      
+    }
+  }
