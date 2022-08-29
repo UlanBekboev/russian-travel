@@ -6,34 +6,44 @@
   line-height: 100px;
   margin-bottom: 32px;
   text-rendering: optimizeLegibility;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__title {
+    
+  }
 }
 
 @media screen and (max-width: 768px) {
   .lead__title {
-      max-width: 93.75%;
+      width: 93.75%;
       font-style: normal;
       font-weight: 900;
       font-size: 75px;
       line-height: 80px;
+      
     }
   }
 
   @media screen and (max-width: 580px) {
     .lead__title {
-        max-width: 400px;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 55px;
-        line-height: 60px;
+      max-width: 300;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 45px;
+      line-height: 48px;
       }
     }
 
-@media screen and (max-width: 320px) {
-  .lead__title {
-      max-width: 288px;
-      font-style: normal;
-      font-weight: 900;
-      font-size: 40px;
-      line-height: 44px;
-    }
-  }
+    @media screen and (max-width: 340px) {
+      .lead__title {
+          max-width: 288px;
+          font-style: normal;
+          font-weight: 900;
+          font-size: 40px;
+          line-height: 44px;
+        }
+      }
+
+    
