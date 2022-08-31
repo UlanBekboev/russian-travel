@@ -24,12 +24,12 @@
 
 @media screen and (max-width: 720px) {
   .footer {
-    min-height: 310px;
-    grid-template-columns: max-content;
-    grid-template-rows: min-content min-content;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
     align-content: space-between;
     margin: 64px 0 0;
     padding: 0 16px 24px;
     align-items: flex-start;
+    max-height: 310px;
   }
 }
