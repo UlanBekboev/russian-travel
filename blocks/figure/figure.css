@@ -1,0 +1,9 @@
+.figure {
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .figure {
+    max-width: 928px;
+  }
+}
