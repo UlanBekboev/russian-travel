@@ -1,4 +1,8 @@
 .place__link {
   margin-top: 12px;
   text-decoration: underline;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
 }

@@ -2,27 +2,27 @@
   width: 53.90625%;
   color: #ffffff;
   padding-left: 148px;
-  margin-top: 114px;
+  margin: 92px 0;
 }
 
 @media screen and (max-width: 1024px) {
   .intro {
-      width: 67.383%;
-      padding-left: 48px;
-    }
+    width: 67.383%;
+    padding-left: 48px;
   }
+}
 
-  @media screen and (max-width: 768px) {
-    .intro {
-        padding: 0;
-        margin: 110px auto 88px;
-        width: 93.75%;
-      }
-    }
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: 0;
+    margin: 88px auto;
+    width: 93.75%;
+  }
+}
 
-    @media screen and (max-width: 320px) {
-      .intro {
-          max-width: 288px;
-          margin: 64px auto;
-        }
-      }
+@media screen and (max-width: 320px) {
+  .intro {
+    max-width: 288px;
+    margin: 64px auto;
+  }
+}
