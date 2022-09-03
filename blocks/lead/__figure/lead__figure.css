@@ -1,9 +1,9 @@
-.figure {
+.lead__figure {
   margin: 0;
 }
 
 @media screen and (max-width: 1024px) {
-  .figure {
+  .lead__figure {
     max-width: 928px;
   }
 }
