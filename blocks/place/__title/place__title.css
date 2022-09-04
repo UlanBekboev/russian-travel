@@ -14,6 +14,8 @@
     max-width: 400px;
     font-size: 42px;
     line-height: 46px;
+    grid-column: 1;
+    grid-row: 1/2;
   }
 }
 
